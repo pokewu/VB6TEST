@@ -34,3 +34,7 @@ Attribute VB_Exposed = False
 Private Sub cmd1_Click()
     txt1.Text = "1"
 End Sub
+
+Private Sub Form_Load()
+    Debug.Print "TEST 1.1"
+End Sub
